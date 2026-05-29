@@ -1,0 +1,10 @@
+# Terraform state — contains sensitive data, never commit
+terraform/argocd/*.tfstate
+terraform/argocd/*.tfstate.backup
+terraform/argocd/.terraform/
+terraform/argocd/.terraform.lock.hcl
+terraform/argocd/backend-aws.tf
+
+# Local secrets
+.env
+*.secret
